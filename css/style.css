@@ -1,0 +1,69 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header, body{
+    margin: 0px ;
+    padding: 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5c897;
+}
+.nav-wrapper a{
+    color : black;
+    font-style: bold;
+}
+
+body .nav-wrapper ul li a.active {
+    background-color: #fdd6a8ed;
+    color:black !important;
+}
+
+
+h4{
+    text-align: center;
+    
+}
+
+.container{
+    display: grid;
+    
+    
+}
+.container header { 
+    background-color: rgb(218, 131, 131) !important;
+}
+
+.container main { 
+    background-color: rgb(218, 131, 131) !important;
+}
+
+.container .content  {
+    background-color:rgb(218, 131, 131)  !important;
+
+}
+
+#gap {
+    background-color:rgb(218, 131, 131) 
+}
+
+.container .row {
+    display: tabel;
+    text-align: center;
+    grid-gap: 5px;
+    background-image: url(../assets/ss.jpg) !important;
+}
+#title {
+    font-size: 20px;
+    text-decoration: underline;
+    color : blue;
+}
+
+#detail {
+    outline-color: chocolate;
+}
+
+.contain {
+    width: 960px;
+}
+.container{
+    width: 960px;
+}

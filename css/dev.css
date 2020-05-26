@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    background-color: thistle;
+    border-radius: 20px;
+}
+.content {
+    background-image: url(../assets/ss.jpg);
+    border-radius: 20px;
+
+}
+#image {
+    text-align: center;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+body{
+    background-color: thistle;
+}
+
+h3, h4, h5 {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+}

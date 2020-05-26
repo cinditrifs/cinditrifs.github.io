@@ -1,0 +1,42 @@
+.row1 {
+    background-color : rgb(61, 176, 221);
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.container {
+    justify-content: center;
+    
+}
+.row {
+    background-image: url(../assets/ss.jpg);
+    background-color : rgb(40, 116, 146);
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    border-radius: 20px;
+    justify-items: center;
+}
+body {
+    background-color:rgb(218, 131, 131)
+}
+p{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 35px;
+    
+}
+h5{
+    font-size: 30px;
+}
+h4 {
+    font-size: 28px;
+}
