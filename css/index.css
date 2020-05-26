@@ -1,3 +1,8 @@
+@media only screen and (max-width: 768px) {
+    .notice {
+        font-size: 11px;
+    }
+  }
 .row1 {
     background-color : rgb(61, 176, 221);
     justify-content: space-between;
