@@ -1,6 +1,11 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width: 768px) {
+    .notice {
+        font-size: 11px;
+    }
+  }
 .container-login { 
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +32,6 @@
 }
 
 .row1 {
-    width: 960px;
     background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
