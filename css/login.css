@@ -27,6 +27,7 @@
 }
 
 .row {
+    width : auto;
     background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
