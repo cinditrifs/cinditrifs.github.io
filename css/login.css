@@ -13,7 +13,7 @@
     align-items: center;
     padding: 15px;
     width: 100%;  
-    min-height: 100vh;
+    min-height: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -39,10 +39,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card {
     box-shadow: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 body{
