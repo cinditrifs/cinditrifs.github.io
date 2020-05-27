@@ -5,9 +5,13 @@ body{
     background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
     background: linear-gradient(-135deg, #c850c0, #4158d0);
 }
+@media only screen and (max-width: 768px) {
+    .notice {
+        font-size: 11px;
+    }
+  }
 
 .container{
-    width: 960px;
     background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
