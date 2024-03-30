@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Import style.css-->
+        <link rel = "stylesheet", type="text/css" href = "css/regist.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title> Registration Form </title>
+    </head>
+
+    <body>
+        <div class="container-form valign-wrap">
+        <br>
+        <br>
+            <div class="container center-align">
+                <div class="row">
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                        <h4 style="font-family: monospace;">Registration Successful</h4>
+                        <p>Username: <b>houwdai</b></p>
+                        <p >Password: <b>2604009</b></p>
+                        </div>
+                        <div style="margin: auto; margin-bottom: 15px;">
+                        <a href="login.html" class="modal-close waves-effect waves-brown btn">Login</a>
+                        </div>
+                    </div>
+                    <div class="col 12 m12">
+                        <h4>Registration Form </h4>
+
+                    </div>
+                    <div class=" col s12 m6 card-content">
+                        <div class="input-field">
+                            <input value="Cindi Tri Fitikasari" id="full_name" type="text" class="validate">
+                            <label for="full_name">Full Name</label>
+                        </div>
+                            <br>
+                        <div class="input-field">
+                            <input value="317509260400001" id="nik" type="number" class="validate">
+                            <label for="nik">NIK</label>
+                        </div>
+                        <label> <p  style="text-align: left;"> Member Type </p> </label>
+                            <select class="browser-default">
+                            <option value="" disabled selected>Pilih</option>
+                            <option value="1">Civilian</option>
+                            <option value="2">Guild Member</option>
+                            </select>
+                            <br>
+                        <label> <p  style="text-align: left;"> Join Period </p> </label>
+                            <select class="browser-default">
+                            <option value="" disabled selected>Pilih</option>
+                            <option value="1">a month</option>
+                            <option value="2">3 month</option>
+                            <option value="3">Half Year</option>
+                            <option value="4">a Year</option>
+                            </select>
+                            <br>
+                        <div class="input-field">
+                            <input value="Student College" id="profession" type="text" class="validate">
+                            <label for="profession">Profession</label>
+                        </div>
+                            <br>
+                        <div class="input-field">
+                            <textarea id="skillset" class="materialize-textarea">Gaming</textarea>
+                            <label for="skillset">Skillset</label>
+                        </div>
+                            <br>
+                        <div class="input-field">
+                            <input value="Kampung Baru Kelapa Dua Wetan" id="address" type="text" class="validate">
+                            <label for="address">Address</label>
+                        </div>
+                            <br>
+                        <div class="input-field">
+                            <input id="birth-date" value="26-04-2000" type="text" class="datepicker">
+                            <label for="birt-hdate">Birthdate</label>
+                        </div>
+                            <br>
+                        <div class="input-field">
+                            <input value="houwdai" id="codename" type="text" class="validate">
+                            <label for="codename">Code Name</label>
+                        </div>
+                            <br>
+                            <a data-target="modal1" class="waves-effect waves- brown light btn modal-trigger">Register</a>
+                        </div>
+                    </div>
+                
+                </div>    
+            </div> 
+        </div>
+        <br>
+        <!-- footer  -->
+    <footer>
+        <img class="responsive-img" src ="assets/footer.jpg" >
+    </footer>
+                
+                
+        <!--JavaScript at end of body for optimized loading-->
+         <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.datepicker');
+            var instances = M.Datepicker.init(elems, {});
+
+            var elems2 = document.querySelectorAll('.modal');
+            var instances2 = M.Modal.init(elems2, {});
+            });
+        </script>
+
+
+    </body>
+
+    
+</html>
